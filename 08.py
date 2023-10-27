@@ -1,0 +1,5 @@
+name = input("What is your name?")
+my_cities = input("Name three cities you have lived in: ")
+city1,city2,city3 = my_cities.split()
+print("\nIs your name really", name,end="?\n\n")
+print(name + ",you have lived in:",city2,city3,city1, sep="\n",end =".\n")
