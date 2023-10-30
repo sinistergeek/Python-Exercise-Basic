@@ -17,3 +17,8 @@ print(countries)
 names = ['rRock Rock','table cup','bench top','legend and do','horse ride','car blast']
 names.sort(key=lambda x:x.split()[-1])
 print(names)
+
+
+list1 = [(1,2),(4,1),(9,10),(13,-3)]
+list1.sort(key = lambda x:x[0])
+print(list1)
