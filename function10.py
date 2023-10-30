@@ -8,3 +8,7 @@ print(addFunc(5,2))
 
 countries = ['India','Mauritius','France','Turkey','kenya','Hungary']
 print(list(map(lambda x: len(x),countries)))
+
+
+countries.sort(key = lambda x:x[0])
+print(countries)
