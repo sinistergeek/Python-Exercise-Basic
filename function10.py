@@ -22,3 +22,7 @@ print(names)
 list1 = [(1,2),(4,1),(9,10),(13,-3)]
 list1.sort(key = lambda x:x[0])
 print(list1)
+
+
+marks = [{'Subject':'Maths','Score':90},{'Subject':'Science','Score':100},{'Subject':'Geography','Score':83}]
+print(list(sorted(marks, key = lambda x:x['Score'], reverse = True)))
