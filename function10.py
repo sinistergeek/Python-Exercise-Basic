@@ -26,3 +26,7 @@ print(list1)
 
 marks = [{'Subject':'Maths','Score':90},{'Subject':'Science','Score':100},{'Subject':'Geography','Score':83}]
 print(list(sorted(marks, key = lambda x:x['Score'], reverse = True)))
+
+
+list2 = ['AR-MO-UR','O-F','G-O-D']
+print(list(map(lambda x: ''.join(x.split('-')),list2)))
