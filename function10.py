@@ -30,3 +30,8 @@ print(list(sorted(marks, key = lambda x:x['Score'], reverse = True)))
 
 list2 = ['AR-MO-UR','O-F','G-O-D']
 print(list(map(lambda x: ''.join(x.split('-')),list2)))
+
+
+list3 = [10,20,50,70]
+list4 = [20,40,60,80]
+print(list(map(lambda x,y: x+y,list3,list4)))
