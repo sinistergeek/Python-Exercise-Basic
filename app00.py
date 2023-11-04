@@ -5,7 +5,7 @@ import credential as c
 def create_tab():
     pycon = msql.connect(**c.dbConfig)
     mycursor = pycon.cursor()
-    statement = "CREATE TABLE "+str(table_name_E.get())+"("+str (column1_E.get())+", "+str(column2_E.get())+", "+str(column3_E.get())+", "+str(column4_E.get())+""+str(column5_E.get())+", "+" PRIMARY KEY("+str(columnpk_E.get())+"));"
+    statement = "CREATE TABLE "+str(table_name_E.get())+"("+str (column1_E.get())+", "+str(column2_E.get())+", "+str(column3_E.get())+", "+str(column4_E.get())+","+str(column5_E.get())+", "+" PRIMARY KEY("+str(columnpk_E.get())+"));"
     print("Passing following information to MySQL textile database:"+statement)
     mycursor.execute(statement)
     pycon.close()
