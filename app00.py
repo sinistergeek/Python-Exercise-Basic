@@ -12,7 +12,7 @@ def create_tab():
 
 mw=tk.Tk()
 mw.geometry('500x500')
-table_name = tk.Label(mw, text='TABLE NAME')
+table_name = tk.Label(mw, text='sinister')
 table_name.place(x=10,y=10)
 
 table_name_E = tk.Entry(mw,bd=2)
