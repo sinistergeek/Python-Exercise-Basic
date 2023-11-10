@@ -1,0 +1,22 @@
+dummie as passwd dummie
+mysql -u root -p
+-Create database pymysql;
+GRANT ALL PRIVIlEGES ON pymysql.* TO 'pymysqladmin'@'localhost' IDENTIFIED BY 'Passwrod';
+
+statement = "CREATE TABLE "+str(table_name_E.get())+"("+str (column1_E.get())+", "+
+str(column2_E.get())+", "+str(column3_E.get())+", "+str(column4_E.get())+",
+"+str(column5_E.get())+", "+" PRIMARY KEY("+str(columnpk_E.get())+"));"
+print("Passing following information to MySQL textile database:"+statement)
+mycursor.execute(statement)
+
+CREATE TABLE FABRIC(FABRIC_ID SMALLINT NOT NULL AUTO_INCREMENT,FABRIC_NAME CHAR(20) NOT NULL,
+IMPORT_EXPORT CHAR(20) NOT NULL,
+COST_PER_METER SMALLINT NOT NULL,
+COLORS_AVAILABLE SMALLINT NOT NULL,PRIMARY KEY (FABRIC_ID));
+
+sinister_ID SMALLINT NOT NULL AUTO_INCREMENT
+sinister_NAME CHAR(20) NOT NULL
+sinster_geek CHAR(20) NOT NULL
+sinister_cost SMALLINT NOT NULL
+sinister_color SMALLINT noT NULL
+sinister_ID
