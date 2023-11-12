@@ -12,7 +12,7 @@ class Doc:
     def __lt__(self,other):
         return len(self.string) < len(other.string)
 
-doc1 = Doc('sport')
+doc1 = Doc('sport ')
 doc2 = Doc('activity')
 print(doc1 < doc2)
 
