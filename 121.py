@@ -15,3 +15,8 @@ if sorted(x.keys())[-1] % sorted(x.keys())[-2]==sorted(x.keys())[0]:
     print("True!")
 else:
     print("False!")
+
+if sum(x) < len(x[1]+x[2]+x[3]+x[4]+x[5]):
+    print("True!")
+else:
+    print("False!")
