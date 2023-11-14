@@ -4,3 +4,7 @@ if "z" in x or x.count("y") >= 2:
 
 if type(x) is str and x.startswith("T"):
     print("True")
+if x.index("t") < 10:
+    print("True!")
+else:
+    print("False!")
