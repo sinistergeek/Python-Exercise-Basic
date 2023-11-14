@@ -10,3 +10,8 @@ if sorted(x.values())[-1][-1] == "n":
     print("True!")
 else:
     print("False!")
+
+if sorted(x.keys())[-1] % sorted(x.keys())[-2]==sorted(x.keys())[0]:
+    print("True!")
+else:
+    print("False!")
