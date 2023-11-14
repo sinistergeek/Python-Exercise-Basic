@@ -21,3 +21,10 @@ elif len(x[1]) == 4:
     print("False")
 else:
     print("None")
+
+if sum(x[0]) > sum(x[2]):
+    print("True!")
+elif max(x[1]) > max(x[2]):
+    print("False!")
+else:
+    print("None!")
