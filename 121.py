@@ -20,3 +20,5 @@ if sum(x) < len(x[1]+x[2]+x[3]+x[4]+x[5]):
     print("True!")
 else:
     print("False!")
+
+
