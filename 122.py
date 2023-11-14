@@ -14,3 +14,10 @@ elif x[1][-1] < 9:
     print("False!")
 else:
     print("None!")
+
+if len(x[0]) >= 5:
+    print("True")
+elif len(x[1]) == 4:
+    print("False")
+else:
+    print("None")
