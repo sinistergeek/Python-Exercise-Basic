@@ -28,3 +28,12 @@ elif max(x[1]) > max(x[2]):
     print("False!")
 else:
     print("None!")
+
+if max(x[0]) - x[2][1] == x[0][0]:
+    print("True")
+elif len(x[0]) - len(x[1]) == x[2][0]:
+    print("False")
+elif sum(x[2])%2 == 0:
+    print("Maybe")
+else:
+    print("None")
