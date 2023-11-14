@@ -4,3 +4,9 @@ if x[5] == "Perl" or len(x) % 5 < 2:
     print("True!")
 else:
     print("False!")
+
+
+if sorted(x.values())[-1][-1] == "n":
+    print("True!")
+else:
+    print("False!")
