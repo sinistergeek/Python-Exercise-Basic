@@ -6,3 +6,11 @@ elif x[1][0] == 5:
     print("False!")
 else:
     print("Nonen!")
+
+
+if x[0][-1] > 3:
+    print("true")
+elif x[1][-1] < 9:
+    print("False!")
+else:
+    print("None!")
