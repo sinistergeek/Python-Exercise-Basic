@@ -9,3 +9,8 @@ if x[3][1].endswith("h") and x[7][0].endswith("h"):
 
 else:
     print("False!")
+
+if x[3][2].endswith("h") or x[7][1].endswith("h"):
+    print("True!")
+else:
+    print("False!")
