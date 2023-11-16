@@ -14,3 +14,7 @@ main()
 import random
 random.seed(20)
 print(random.random())
+
+fruits = ["Apple","Banana","Orange","durian","Papaya"]
+salad = random.sample(fruits,3)
+print(salad)
