@@ -9,3 +9,8 @@ def main():
     print(res)
 
 main()
+
+
+import random
+random.seed(20)
+print(random.random())
