@@ -5,6 +5,7 @@ counter = []
 for name in celestial_objects:
     if name in names:
         idx = names.index(name)
+        print('the value idx',idx)
         counter[idx] += 1
     else:
         names.append(name)
