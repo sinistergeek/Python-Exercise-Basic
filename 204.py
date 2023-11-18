@@ -12,3 +12,7 @@ print('issubset: ', both.issubset(spanish))
 
 diff = english.symmetric_difference(spanish)
 print('symmetric_difference: ',diff)
+
+
+all_the_words = english.union(spanish)
+print(all_the_words)
