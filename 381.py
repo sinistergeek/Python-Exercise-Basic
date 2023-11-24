@@ -2,7 +2,7 @@ import sys
 
 def main():
     if len(sys.argv) != 4:
-        exit(f"Usage.{argv[0]} IN_FILE IN_FILE OUT_FILE")
+        exit(f"Usage { sys.argv[0]} IN_FILE IN_FILE OUT_FILE")
     infile_a,infile_b = sys.argv[1:3]
     outfile = sys.argv[3]
 
