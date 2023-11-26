@@ -1,0 +1,4 @@
+2023-11-26 18:41:17,888 - __main__ - INFO       - info
+2023-11-26 18:41:17,888 - __main__ - WARNING    - warning
+2023-11-26 18:41:17,888 - __main__ - ERROR      - error
+2023-11-26 18:41:17,888 - __main__ - CRITICAL   - critical
