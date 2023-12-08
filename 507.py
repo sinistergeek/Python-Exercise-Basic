@@ -16,3 +16,9 @@ def greet(**kwargs):
 
 greet(name='Edcorner',greeting='Hello')
 
+
+def func(*args,**kwargs):
+    print(args)
+    print(kwargs)
+
+func(1,2,3,name='Edcorner',greeting='Hello')
