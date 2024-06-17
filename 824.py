@@ -3,3 +3,7 @@ for n in range(6):
 
         break 
     print(n)
+
+
+n = bytearray(2)
+print(n)
