@@ -13,3 +13,7 @@ class Desktop(Computer):
 D = Desktop()
 D.setValue(9000,7)
 D.capacity()
+
+animal = ["ass","bat","cow"]
+animals.clear()
+print(animals)
