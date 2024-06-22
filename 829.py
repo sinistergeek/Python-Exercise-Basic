@@ -5,3 +5,7 @@ valid = pattern.match(phoneNumber)
 print(phoneNumber)
 if valid:
     print("Valid Phone NUmber!")
+
+source = 'print(168)'
+code = compile(source,'myfile','exec')
+exec()
