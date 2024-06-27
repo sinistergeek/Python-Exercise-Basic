@@ -5,3 +5,9 @@ print(removed_item)
 
 student = {"name":"Andy","age":"17","id":"0026"}
 print("The removed item is:"student.popitem())
+
+
+dict1 = {0:"apple",1:"banana",2:"cherry"}
+dict2 = {1:"berry",2:"cashew"}
+dict1.update(dit2)
+print("dict1 =",dict1)
