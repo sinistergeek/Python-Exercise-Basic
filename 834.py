@@ -11,3 +11,6 @@ dict1 = {0:"apple",1:"banana",2:"cherry"}
 dict2 = {1:"berry",2:"cashew"}
 dict1.update(dit2)
 print("dict1 =",dict1)
+
+dict = {'ant':1,"bee":2,'cat':3}
+print(dict.values())
