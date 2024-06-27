@@ -14,3 +14,8 @@ print("dict1 =",dict1)
 
 dict = {'ant':1,"bee":2,'cat':3}
 print(dict.values())
+
+set1 = {"ant","bee","cat"}
+set2 = {"ant","bee","cow"}
+diff = set1.difference(set2)
+print(diff)
