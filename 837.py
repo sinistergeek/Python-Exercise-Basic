@@ -8,3 +8,8 @@ from collections import Counter
 obj = Counter("cheatsheet")
 for item in obj.elements():
     print(item)
+
+
+import demjson
+json = demjson.encode(dict)
+
