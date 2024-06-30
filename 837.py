@@ -15,4 +15,6 @@ str = "Perl in 8 Hours!"
 s = str.endswith("!")
 print(s)
 
-
+m = ('ant','bee','cat')
+n = enumerate(m)
+print(list(n))
