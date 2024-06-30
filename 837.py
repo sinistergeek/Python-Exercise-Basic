@@ -18,3 +18,9 @@ print(s)
 m = ('ant','bee','cat')
 n = enumerate(m)
 print(list(n))
+
+try:
+    value = 100/0 
+except:
+    print("Error Occours!")
+
