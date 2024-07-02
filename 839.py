@@ -15,3 +15,6 @@ except:
     print("Error Occurs!")
 finally:
     print("Remind:Please be careful when you input data!")
+
+str = "JavaScript"
+print(str.find("v"))
