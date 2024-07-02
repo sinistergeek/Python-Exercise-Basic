@@ -8,3 +8,10 @@ def func(number):
     return False 
 evenNum = list(filter(func,collection))
 print(evenNum)
+
+try:
+    value = 100/0
+except:
+    print("Error Occurs!")
+finally:
+    print("Remind:Please be careful when you input data!")
