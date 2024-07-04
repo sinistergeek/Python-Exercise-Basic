@@ -9,3 +9,7 @@ for str in 'Good':
 myTuple = ("apple","banana","cherry")
 for elements in myTuple:
     print(elements)
+
+
+for num in range(3,10):
+    print(num)
