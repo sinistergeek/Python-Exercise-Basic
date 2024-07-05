@@ -5,3 +5,7 @@ print(myDict)
 
 mylist = ['ant','bee','cat']
 print(frozenset(mylist))
+
+def myFunction():
+    print("This is a custome function.")
+myFunction()
