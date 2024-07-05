@@ -9,3 +9,8 @@ print(frozenset(mylist))
 def myFunction():
     print("This is a custome function.")
 myFunction()
+
+
+def userName(name):
+    print("My name is "+ name)
+userName("Andy")
