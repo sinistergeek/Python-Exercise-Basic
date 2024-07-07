@@ -12,3 +12,6 @@ class Student:
     name = "Andy"
     id = "0026"
 print(hasattr(Student,'id'))
+
+str = 'Scala in 8 Hours'
+print(hash(str))
