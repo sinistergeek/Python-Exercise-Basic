@@ -7,3 +7,8 @@ print("Html Css" + myVar)
 
 
 print(globals())
+
+class Student:
+    name = "Andy"
+    id = "0026"
+print(hasattr(Student,'id'))
