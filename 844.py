@@ -5,3 +5,5 @@ def fun():
 fun()
 print("Html Css" + myVar)
 
+
+print(globals())
