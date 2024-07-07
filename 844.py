@@ -15,3 +15,6 @@ print(hasattr(Student,'id'))
 
 str = 'Scala in 8 Hours'
 print(hash(str))
+
+
+help(list)
