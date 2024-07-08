@@ -15,3 +15,7 @@ os.mkdir("/tmp/home/mydir")
 
 import re 
 pattern = re.compile("^(\d{3})-(\d{3})-(\d{4})$")
+
+import smtplib
+obj = smtplib.SMPT('localhost')
+obj.sendmail(sender,receivers,message.as_string())
