@@ -9,3 +9,6 @@ if y > x:
 import calendar 
 cal = calendar.mont(2020,1)
 print(cal)
+
+import os 
+os.mkdir("/tmp/home/mydir")
