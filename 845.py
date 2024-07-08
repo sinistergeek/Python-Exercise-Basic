@@ -19,3 +19,7 @@ pattern = re.compile("^(\d{3})-(\d{3})-(\d{4})$")
 import smtplib
 obj = smtplib.SMPT('localhost')
 obj.sendmail(sender,receivers,message.as_string())
+
+import time
+local_time = time.asctime(time.localtime(time.time()))
+print("The local time is:",local_time)
