@@ -12,3 +12,6 @@ print(cal)
 
 import os 
 os.mkdir("/tmp/home/mydir")
+
+import re 
+pattern = re.compile("^(\d{3})-(\d{3})-(\d{4})$")
