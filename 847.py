@@ -11,3 +11,7 @@ set1 = {"ant","bee","cat"}
 set2 = {"ant","bee","cow"}
 same = set1.insersection(set2)
 print(same)
+
+x = 'Ruby in 8 Hours'
+y = 'Perl in 8 Hours'
+print(x is y)
