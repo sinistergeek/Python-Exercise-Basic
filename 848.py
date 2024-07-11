@@ -10,3 +10,7 @@ print("Is myThread alive?",myThread.is_alive())
 str = "year2018";
 s = str.isalnum();
 print(s)
+
+str = "year2018"
+s = str.sisalpha();
+print(s)
