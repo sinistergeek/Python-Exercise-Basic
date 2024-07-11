@@ -14,3 +14,7 @@ print(s)
 str = "year2018"
 s = str.sisalpha();
 print(s)
+
+str = "Hero007"
+s = str.isascii()
+print(s)
