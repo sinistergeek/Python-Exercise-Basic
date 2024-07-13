@@ -12,3 +12,7 @@ print(isinstance(3.14,float))
 str = "abcde"
 s = str.islower();
 print(s)
+
+str = "168168"
+s = str.isnumeric()
+print(s)
