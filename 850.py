@@ -8,3 +8,7 @@ s = str.isidentifier()
 print(s)
 
 print(isinstance(3.14,float))
+
+str = "abcde"
+s = str.islower();
+print(s)
