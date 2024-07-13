@@ -6,3 +6,5 @@ print(unrelated)
 str = "100percent"
 s = str.isidentifier()
 print(s)
+
+print(isinstance(3.14,float))
