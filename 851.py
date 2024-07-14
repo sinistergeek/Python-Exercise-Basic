@@ -16,3 +16,8 @@ class Room(Building):
     high = 5
 
 print(issubclass(Room,Building))
+
+set1 = {"ant","bee","cat"}
+set2 = {"ant","bee","cat","dog","ewe"}
+ss = set1.issubset(set2)
+print(ss)
