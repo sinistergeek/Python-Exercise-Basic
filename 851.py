@@ -9,3 +9,10 @@ print(s)
 str = "   "
 s = str.isspace();
 print(s)
+
+class Building:
+    high = 100
+class Room(Building):
+    high = 5
+
+print(issubclass(Room,Building))
