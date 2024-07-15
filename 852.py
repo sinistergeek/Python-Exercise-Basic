@@ -12,3 +12,7 @@ iterator = iter(["ant","bee","cat"])
 print(next[iterator])
 print(next[iterator])
 print(next[iterator])
+
+separator ="-";
+str = ("x","y","z");
+print(separator.join(str));
