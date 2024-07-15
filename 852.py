@@ -16,3 +16,16 @@ print(next[iterator])
 separator ="-";
 str = ("x","y","z");
 print(separator.join(str));
+
+
+from time import sleep 
+from threadiang import thread 
+def fun():
+    sleep(2)
+    print('Joined thread finished running.')
+
+thread = Thread(target=fun)
+thread.start()
+print('Main thread is waiting for joined thread to terminate.')
+thread.join()
+print('Main thread resumes running after joined thread terminates.')
