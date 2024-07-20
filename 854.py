@@ -10,3 +10,7 @@ print(mylist)
 myList = ['ant','bee','cat']
 myList.append('dog')
 print(myList)
+
+myList = [1,2,3,4,5]
+myList.clear()
+print('myList=',myList)
