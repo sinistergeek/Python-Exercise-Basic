@@ -16,3 +16,5 @@ import time
 local_time = time.asctime(time.localtime(time.time()))
 print(local_time) 
 
+str = "JQuery in 8 Hours"
+print(str.lower())
