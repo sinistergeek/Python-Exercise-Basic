@@ -11,3 +11,8 @@ import json
 j = '{"name":"Andy","age":18,"id":"007"}'
 p = json.loads(j)
 print(p)
+
+import time 
+local_time = time.asctime(time.localtime(time.time()))
+print(local_time) 
+
