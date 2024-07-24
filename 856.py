@@ -9,3 +9,8 @@ print(list(map(mul,p)))
 
 import re 
 pattern = re.compile("^(\d{3})-(\d{3})-(\d{4})$")
+
+import math 
+parameter 
+print(math.copysign(10,-10))
+print(math.copysign(-20,20))
