@@ -14,3 +14,7 @@ import math
 parameter 
 print(math.copysign(10,-10))
 print(math.copysign(-20,20))
+
+import math 
+print(math.fabs(-3.14))
+print(math.fabs(-100))
