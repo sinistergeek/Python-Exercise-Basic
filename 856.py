@@ -22,3 +22,6 @@ print(math.fabs(-100))
 import math 
 print(math.factorial(5))
 print(math.factorial(6))
+
+import math 
+print(math.floor(9.5))
