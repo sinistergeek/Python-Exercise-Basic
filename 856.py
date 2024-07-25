@@ -18,3 +18,7 @@ print(math.copysign(-20,20))
 import math 
 print(math.fabs(-3.14))
 print(math.fabs(-100))
+
+import math 
+print(math.factorial(5))
+print(math.factorial(6))
