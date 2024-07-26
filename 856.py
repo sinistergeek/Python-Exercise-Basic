@@ -29,3 +29,7 @@ print(math.floor(9.5))
 import math 
 print(math.isnan(100))
 print(math.isnan(math.nan))
+
+import math 
+print(math.isqrt(10))
+print(math.isqrt(17))
