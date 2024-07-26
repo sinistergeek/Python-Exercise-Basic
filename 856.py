@@ -33,3 +33,7 @@ print(math.isnan(math.nan))
 import math 
 print(math.isqrt(10))
 print(math.isqrt(17))
+
+import math 
+lcm = 3/math.gcd(3,4)*4 
+print(lcm)
