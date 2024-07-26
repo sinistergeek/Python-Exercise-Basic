@@ -25,3 +25,7 @@ print(math.factorial(6))
 
 import math 
 print(math.floor(9.5))
+
+import math 
+print(math.isnan(100))
+print(math.isnan(math.nan))
