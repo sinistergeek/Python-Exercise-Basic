@@ -22,3 +22,9 @@ print("Tiger counts" + str(tiger.count))
 
 myObj = object()
 print(dir(myObj))
+
+f = open("myfile.txt","a")
+f.write("Hello World!")
+f.close()
+f = open("myfile.txt","r") 
+print(f.read())
