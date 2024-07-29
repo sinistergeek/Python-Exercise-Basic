@@ -19,3 +19,6 @@ class Animal:
 tiger = Animal("Tiger","100")
 tiger.show()
 print("Tiger counts" + str(tiger.count))
+
+myObj = object()
+print(dir(myObj))
