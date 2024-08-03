@@ -29,3 +29,8 @@ L.capcity(8000,6)
 str = "Visual Basic in 8 Hours"
 s = str.partition("in")
 print(s)
+
+num = 100 
+if nm > 100:
+    pass 
+print('Here has a placeholder for future code')
