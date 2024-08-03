@@ -34,3 +34,6 @@ num = 100
 if nm > 100:
     pass 
 print('Here has a placeholder for future code')
+
+import re 
+print(re.match('ray','ray@yahoo.com').span())
