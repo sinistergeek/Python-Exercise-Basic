@@ -26,3 +26,6 @@ class Laptop(Computer):
 L = Laptop("Laptop")
 L.capcity(8000,6)
 
+str = "Visual Basic in 8 Hours"
+s = str.partition("in")
+print(s)
