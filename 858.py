@@ -37,3 +37,8 @@ print('Here has a placeholder for future code')
 
 import re 
 print(re.match('ray','ray@yahoo.com').span())
+
+x = "awesome"
+def myfunc():
+    print("Python is " + x)
+myfunc()
