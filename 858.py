@@ -42,3 +42,6 @@ x = "awesome"
 def myfunc():
     print("Python is " + x)
 myfunc()
+
+import random 
+print(random.randrange(1,10)
