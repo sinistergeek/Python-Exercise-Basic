@@ -14,3 +14,8 @@ else:
 'This should never happen, but it does '
 'occassionally. We are currently trying to figure out why. Email dbadder is if you encounter this in the wild. Thanks'
             )
+
+def delete_product(prod_id,user):
+    assert user.is_admin(),'Must be admin'
+    assert store.has_product(prod_id),'Unknown product'
+    store.get_product(prod_id).delete()
