@@ -12,3 +12,9 @@ wd = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=c
 wd.get("https://www.wikipedia.org/")
 assert "Wikipedia" in wd.title
 print(wd.page_source)
+
+f = open('hello.txt','w')
+try:
+    f.write('hello,world')
+finally:
+    f.close()
