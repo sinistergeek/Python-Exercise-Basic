@@ -28,3 +28,15 @@ class ManagedFile:
     def __exit__(self,exc_type,exc_val,exc_tb):
         if self.file:
             self.file.close()
+from contextlib import contextmanager
+
+@contextmanager
+def managed_file(name):
+    try:
+        f = open(name,'w')
+        yeild f 
+    finally:
+        f.close()
+    with managed_file('hello.txt') as f:
+        f.write('hello world!')
+        f.write('bye now')
