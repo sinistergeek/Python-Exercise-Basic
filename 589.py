@@ -40,3 +40,11 @@ def managed_file(name):
     with managed_file('hello.txt') as f:
         f.write('hello world!')
         f.write('bye now')
+
+with Indenter() as indent:
+    indent.print('hi!')
+    with indent:
+        indent.print('hello')
+        with indent:
+            indent.print('bonjour')
+    indent.print('hey')
