@@ -72,3 +72,11 @@ thistuple = ("kiwi","orange")
 thislist.extend(thistuple) 
 print(thislist)
 
+class Test:
+      def __init__(self):
+        self.foo = 11
+        self._bar = 23
+t = Test()
+t.foo
+t._bar
+    
