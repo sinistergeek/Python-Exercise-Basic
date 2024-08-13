@@ -48,3 +48,11 @@ with Indenter() as indent:
         with indent:
             indent.print('bonjour')
     indent.print('hey')
+
+
+def __init__(self):
+    self.foo = 11 
+    self._bar = 23 
+    self.__baz = 42 
+t = Test() 
+dir(t)
