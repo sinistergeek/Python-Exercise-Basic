@@ -7,3 +7,12 @@ class ManglingTest:
 
 ManglingTest().get_mangled()
 ManglingTest().__mangled
+
+class MangledMethod:
+    def __method(self):
+        return 42 
+    def call_it(self):
+        return self.__method() 
+
+MangledMethod().method()
+MangledMethod().call_it()
