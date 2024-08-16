@@ -16,3 +16,8 @@ class MangledMethod:
 
 MangledMethod().method()
 MangledMethod().call_it()
+
+class PrefixPostfixTest:
+    def __init__(self):
+        self.__bam__ = 42 
+PrefixPostfixTest().__bam__
