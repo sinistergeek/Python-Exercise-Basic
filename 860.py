@@ -21,3 +21,10 @@ class PrefixPostfixTest:
     def __init__(self):
         self.__bam__ = 42 
 PrefixPostfixTest().__bam__
+
+
+car = ('red','auto',12,3812.4) 
+color,_,_, mileage =car 
+color
+mileage
+_
