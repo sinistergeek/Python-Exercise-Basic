@@ -17,3 +17,8 @@ user_input.format(error=err)
 def yell(text):
     return text.upper() + '!'
 yell('hello')
+
+def greet(func):
+    greeting = func('Hi,I am a Python program')
+    print(greeting)
+greet(bark)
