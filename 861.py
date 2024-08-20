@@ -13,3 +13,7 @@ class Error:
 err = Error()
 user_input = '{error.__init__.__globals__[SECRET]}'
 user_input.format(error=err)
+
+def yell(text):
+    return text.upper() + '!'
+yell('hello')
