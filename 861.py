@@ -28,3 +28,16 @@ def speak(text):
         return t.lower() + '...'
     return whisper(text) 
 speak('Hello, World')
+
+def get_speak_func(volume):
+    def whisper(text):
+        return text.lower() + '...'
+    def yell(text):
+        return text.upper() + '!'
+    if volume > 0.5:
+        return yell 
+    else:
+        return whisper 
+
+get_speak_func(0.3)
+get_speak_func(0.7)
