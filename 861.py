@@ -22,3 +22,9 @@ def greet(func):
     greeting = func('Hi,I am a Python program')
     print(greeting)
 greet(bark)
+
+def speak(text):
+    def whisper(t):
+        return t.lower() + '...'
+    return whisper(text) 
+speak('Hello, World')
