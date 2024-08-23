@@ -10,3 +10,5 @@ def get_speak_func(text,volume):
 
 get_speak_func('Hello,World',0.7)()
 
+add = lambda x,y: x + y
+add(5,3)
