@@ -20,3 +20,9 @@ plus_3 =make_adder(3)
 plus_5 =make_adder(5) 
 plus_3(4)
 plus_5(4)
+
+class Car:
+    rev = lambda self:print('Wroom!')
+    crash = lambda self:print('Boom!')
+my_car = Car()
+my_car.crash()
