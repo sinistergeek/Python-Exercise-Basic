@@ -26,3 +26,8 @@ class Car:
     crash = lambda self:print('Boom!')
 my_car = Car()
 my_car.crash()
+
+@null_decorator
+def greet():
+    return 'Hello!'
+greet()
