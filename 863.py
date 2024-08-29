@@ -25,3 +25,9 @@ def uppercase(func):
         return func().upper()
     return wrapper
 
+def foo(required, *args,**kwargs):
+    print(required)
+    if args:
+        print(args)
+    if kwargs:
+        print(kwargs)
