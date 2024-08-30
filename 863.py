@@ -31,3 +31,8 @@ def foo(required, *args,**kwargs):
         print(args)
     if kwargs:
         print(kwargs)
+
+def foo2(x,*args,**kwargs):
+    kwargs['name'] = 'Alice'
+    new_args = args + ('extra',)
+    bar(x,*new_args,**kwargs)
