@@ -36,3 +36,15 @@ def foo2(x,*args,**kwargs):
     kwargs['name'] = 'Alice'
     new_args = args + ('extra',)
     bar(x,*new_args,**kwargs)
+
+class Car:
+    def __init__(self,color,mileage):
+        self.color = color
+        self.mileage = mileage
+
+class AlwaysBlueCar(Car):
+    def __init__(self,*args,**kwargs):
+        super().__init__(*args,**kwargs)
+        self.color = 'blue'
+
+AlwaysBlueCar('green',48392).color
