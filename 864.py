@@ -78,3 +78,11 @@ class Car(object):
 
     def __str__(self):
         return unicode(self).encode('utf-8')
+
+
+class NameTooShortError(ValueError):
+    pass
+
+def validate(name):
+    if len(name) < 10:
+        raise NameTooShortError(name)
