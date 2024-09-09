@@ -85,4 +85,17 @@ class NameTooShortError(ValueError):
 
 def validate(name):
     if len(name) < 10:
-        raise NameTooShortError(name)
+        raise NameTooShortError(name) 
+
+
+def Point:
+    def __init__(self,x,y):
+        self.x = x 
+        self.y = y
+
+    def __repr__(self):
+        return f'Point({self.x!r},{self.y!r})'
+
+a = Point(23,42)
+b = copy.copy(a)
+
