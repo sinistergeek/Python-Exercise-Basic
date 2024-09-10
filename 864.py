@@ -99,3 +99,14 @@ def Point:
 a = Point(23,42)
 b = copy.copy(a)
 
+class Rectangle:
+    def __init__(self,topleft,bottomright):
+        self.topleft = topleft
+        self.bottomright = bottomright
+
+    def __repr__(self):
+        return(f'Rectangle({self.topleft!r}, '
+               f'{self.bottomright!r})')
+
+rect = Rectangle(Point(0,1),Point(5,6))
+srect = copy.copy(rect)
