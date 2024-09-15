@@ -18,3 +18,10 @@ class Dog:
 jack = Dog('Jack')
 jill = Dog('Jill')
 
+class CountedObject:
+    num_instances = 0
+    
+    def __init__(self):
+        self.__class__.num_instances += 1
+
+CountedObject.num_instances
