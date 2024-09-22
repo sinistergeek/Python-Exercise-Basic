@@ -9,3 +9,6 @@ writable = {'one':1,'two':2}
 read_only = MappingProxyType(writable)
 read_only['one']
 
+import array
+arr = array.array('f',(1.0,1.5,2.0,2.5))
+print(arr[1])
