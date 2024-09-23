@@ -12,3 +12,6 @@ read_only['one']
 import array
 arr = array.array('f',(1.0,1.5,2.0,2.5))
 print(arr[1])
+
+import dis
+dis.dis(compile("(23,'a','b','c')",'','eval))
