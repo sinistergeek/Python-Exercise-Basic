@@ -24,3 +24,10 @@ class Car:
 
 car1 = Car('red',3812.4,True)
 car2 = Car('blue',40231.0,False)
+
+from collections import namedtuple
+from sys import getsizeof
+
+p1 = namedtuple('Point','x y z')(1,2,3)
+p2 = (1,2,3)
+getsizeof(p1)
