@@ -14,7 +14,7 @@ arr = array.array('f',(1.0,1.5,2.0,2.5))
 print(arr[1])
 
 import dis
-dis.dis(compile("(23,'a','b','c')",'','eval))
+dis.dis(compile("(23,'a','b','c')",'','eval'))
 
 class Car:
         car __init__(self,color,mileage,automatic)
@@ -31,3 +31,9 @@ from sys import getsizeof
 p1 = namedtuple('Point','x y z')(1,2,3)
 p2 = (1,2,3)
 getsizeof(p1)
+
+from collections import namedtuple
+Car = namedtuple('Car','color mileage automatic')
+car1 = Car('red',3812.4,True)
+print(car1)
+print(car1.mileage)
