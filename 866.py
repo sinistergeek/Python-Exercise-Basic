@@ -49,3 +49,13 @@ class Car(NamedTuple):
 car1 = Car('red',4323.4,True)
 print(car1)
 print(car1.mileage)
+
+from typin impo namedTuple
+
+class Car(NamedTuple):
+    color: str
+    mileage:float
+    automatic:bool
+
+car1 = Car('red',mileage=323.4,automatic=True)
+print(car1.mileage)
