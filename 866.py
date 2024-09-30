@@ -59,3 +59,8 @@ class Car(NamedTuple):
 
 car1 = Car('red',mileage=323.4,automatic=True)
 print(car1.mileage)
+
+from struct import Struct
+MyStruct = Struct('i?f')
+data = MyStruct.pack(23,False,42.0)
+print(data)
