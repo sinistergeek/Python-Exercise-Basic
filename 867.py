@@ -19,3 +19,9 @@ heapq.heappush(q,(3,'sleep'))
 while q:
     next_item = heapq.heappop(q)
     print(next_item)
+
+my_items = ['a','b','c']
+i=0
+while i < len(my_items):
+    print(my_items[i])
+    i+=1
