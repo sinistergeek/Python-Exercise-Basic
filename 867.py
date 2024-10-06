@@ -25,3 +25,11 @@ i=0
 while i < len(my_items):
     print(my_items[i])
     i+=1
+
+emails={
+        'Bob':'bob@example.com',
+        'Alice':'alice@example.com',
+        }
+
+for name,email in emails.items():
+    print(f'{name} -> {email}')
