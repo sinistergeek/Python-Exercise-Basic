@@ -33,3 +33,7 @@ emails={
 
 for name,email in emails.items():
     print(f'{name} -> {email}')
+
+squares = []
+for x in range(10):
+    suares.append(x*x)
