@@ -37,3 +37,9 @@ for name,email in emails.items():
 squares = []
 for x in range(10):
     suares.append(x*x)
+
+values = []
+for item in collection:
+    if condition:
+        values.append(expression)
+
