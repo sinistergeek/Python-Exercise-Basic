@@ -43,3 +43,6 @@ for item in collection:
     if condition:
         values.append(expression)
 
+original_lst =lst
+lst[:] = [7,8,9]
+print(lst)
