@@ -46,3 +46,7 @@ for item in collection:
 original_lst =lst
 lst[:] = [7,8,9]
 print(lst)
+
+numbers = [1,2,3]
+for n in numbers:
+    print(n)
