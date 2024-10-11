@@ -50,3 +50,7 @@ print(lst)
 numbers = [1,2,3]
 for n in numbers:
     print(n)
+
+repeater =Repeater('Hello')
+for item in repeater:
+    print(item)
