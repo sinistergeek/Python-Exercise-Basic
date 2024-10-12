@@ -54,3 +54,9 @@ for n in numbers:
 repeater =Repeater('Hello')
 for item in repeater:
     print(item)
+
+class Repeater:
+    def __init__(self,value):
+        self.value = value
+    def __iter__(self):
+        return RepeaterIterator(self)
