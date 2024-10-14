@@ -66,3 +66,9 @@ class RepeaterIterator:
         self.source = source
     def __next__(self):
         return self.source.value
+
+repeater =Repeater('Hello')
+iterator = repeater.__iter__()
+while True:
+    item = iterator.__next__()
+    print(item)
