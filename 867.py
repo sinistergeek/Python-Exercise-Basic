@@ -84,3 +84,8 @@ class Repeater:
 repeater - Repeater('Hello')
 for item in repeater:
     print(item)
+
+
+numbers = [1,2,3]
+for n in numbers:
+    print(n)
