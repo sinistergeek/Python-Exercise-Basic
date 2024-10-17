@@ -89,3 +89,6 @@ for item in repeater:
 numbers = [1,2,3]
 for n in numbers:
     print(n)
+
+my_list = [1,2,3]
+iterator = iter(my_list)
