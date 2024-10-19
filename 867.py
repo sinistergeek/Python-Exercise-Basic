@@ -107,3 +107,12 @@ class BoundedRepeater:
             raise StopIteration
         self.count += 1
         return self.value
+
+repeater = BoundedRepeater('Hello',3)
+iterator = iter(repeater)
+while True:
+    try:
+        item = next(iterator)
+    except StopIteration:
+        break
+    print(item)
