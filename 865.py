@@ -77,3 +77,11 @@ class Pizza:
     @staticmethod
     def circle_area(r):
         return r ** 2 * math.pi
+
+class Repeater:
+    def __init__(self,value):
+        self.value = value
+    def __iter__(self):
+        return self
+    def __next__(self):
+        return self.value
