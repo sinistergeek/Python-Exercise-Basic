@@ -86,3 +86,11 @@ class BoundedRepeater:
             raise StopIteration
         self.count += 1
         return self.value
+
+def bounded_repeater(value,max_repeats):
+    count = 0
+    while True:
+        if count >= max_repeats:
+            return
+        count += 1
+        yield value
