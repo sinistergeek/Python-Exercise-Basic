@@ -85,3 +85,7 @@ class Repeater:
         return self
     def __next__(self):
         return self.value
+
+def bounded_repeater(value,max_repeats):
+    for i in range(max_repeats):
+        yield value
