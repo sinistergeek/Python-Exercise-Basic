@@ -37,3 +37,9 @@ print(math.isqrt(17))
 import math 
 lcm = 3/math.gcd(3,4)*4 
 print(lcm)
+
+def bounded_repeater(value,max_repeats):
+    for i in range(max_requests):
+        yield value
+
+iterator = bounded_repeater('Hello',3)
