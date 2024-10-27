@@ -60,3 +60,8 @@ def trace(f):
 @trace
 def greet(greeting,name):
     return '{}, {}!'.format(greeting,name)
+
+genexpr = (expression for item in collection)
+def generator():
+    for item in collection:
+        yield expression
