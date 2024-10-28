@@ -136,3 +136,7 @@ class Base(metaclass=ABCMeta):
 class Concrete(Base):
     def foo(self):
         pass
+
+def integers():
+    for i in range(1,9):
+        yield i
