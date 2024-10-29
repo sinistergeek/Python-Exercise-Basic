@@ -89,3 +89,11 @@ class Repeater:
 def bounded_repeater(value,max_repeats):
     for i in range(max_repeats):
         yield value
+
+
+def negated(seq):
+    for i in seq:
+        yield -i 
+
+chain = negated(squared(integers()))
+list(chain)
