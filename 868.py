@@ -10,3 +10,12 @@ def greeting(userid):
 
 greeting(382)
 greeting(33333)
+
+def greeting(userid):
+    if userid in name_for_userid:
+        return 'Hi %s!' % name_for_userid[userid]
+    else:
+        return 'Hi there!'
+
+greeting(382)
+greeting(333)
