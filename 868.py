@@ -19,3 +19,9 @@ def greeting(userid):
 
 greeting(382)
 greeting(333)
+
+def greeting(userid):
+    try:
+        return 'Hi %s!' % name_fro_userid[userid]
+    except KeyError:
+        return 'Hi there'
