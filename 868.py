@@ -25,3 +25,6 @@ def greeting(userid):
         return 'Hi %s!' % name_fro_userid[userid]
     except KeyError:
         return 'Hi there'
+
+import operator
+sorted(xs.items(),key=operator.itemgetter(1))
