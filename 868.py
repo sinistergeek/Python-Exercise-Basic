@@ -28,3 +28,7 @@ def greeting(userid):
 
 import operator
 sorted(xs.items(),key=operator.itemgetter(1))
+sorted(xs.items(),
+       key=lambda x: x[1],
+       reverse=True)
+
