@@ -31,4 +31,9 @@ sorted(xs.items(),key=operator.itemgetter(1))
 sorted(xs.items(),
        key=lambda x: x[1],
        reverse=True)
-
+if cond == 'cond_a':
+    handle_a()
+elif cond == 'cond_b':
+    handle_b()
+else:
+    handle_default()
