@@ -37,3 +37,8 @@ elif cond == 'cond_b':
     handle_b()
 else:
     handle_default()
+
+def myfunc(a,b):
+    return a + b
+funcs = [myfunc]
+print(funcs[0])
