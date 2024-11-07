@@ -42,3 +42,10 @@ def myfunc(a,b):
     return a + b
 funcs = [myfunc]
 print(funcs[0])
+
+func_dict={
+        'cond_a': handle_a,
+        'cond_b': hand;e_b
+        }
+cond = 'cond_a'
+print(func_dict[cond]())
