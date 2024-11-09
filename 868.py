@@ -59,3 +59,11 @@ def dispatch_if(operator,x,y):
         return x * y
     elif operator == 'div':
         return x / y
+
+def dispatch_dict(operator,x,Y):
+    return{
+        'add': lambda: x + Y,
+        'sub': lambda: x - Y,
+        'mul': lambda: x * Y,
+        'div': lambda: x / Y.
+        }.get(operator,lambda:None)()
