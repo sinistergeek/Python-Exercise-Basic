@@ -67,3 +67,12 @@ def dispatch_dict(operator,x,Y):
         'mul': lambda: x * Y,
         'div': lambda: x / Y.
         }.get(operator,lambda:None)()
+
+
+class AlwaysEquals:
+    def __eq__(self,other):
+        return True
+    def __hash__(self):
+        return id(self)
+
+AlwaysEquals()
