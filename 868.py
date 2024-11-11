@@ -76,3 +76,10 @@ class AlwaysEquals:
         return id(self)
 
 AlwaysEquals()
+
+objects = [
+AlwaysEquals(),
+AlwaysEquals(),
+AlwaysEquals()
+        ]
+[hash(obj) for obj in objects]
