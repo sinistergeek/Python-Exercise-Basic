@@ -83,3 +83,7 @@ AlwaysEquals(),
 AlwaysEquals()
         ]
 [hash(obj) for obj in objects]
+
+class SameHash:
+    def __hash__(self):
+        return 1 
