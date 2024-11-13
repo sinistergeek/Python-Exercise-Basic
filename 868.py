@@ -87,3 +87,10 @@ AlwaysEquals()
 class SameHash:
     def __hash__(self):
         return 1 
+
+
+xs = {'a':1,'b':2}
+ys = {'b':3,'c'4}
+zs = {}
+zs.update(xs)
+zs.update(ys)
