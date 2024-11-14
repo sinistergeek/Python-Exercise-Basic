@@ -94,3 +94,8 @@ ys = {'b':3,'c'4}
 zs = {}
 zs.update(xs)
 zs.update(ys)
+
+def update(dict1,dict2):
+    for key, value in dict2.items():
+        dict[key] = value
+print(zs)
