@@ -99,3 +99,6 @@ def update(dict1,dict2):
     for key, value in dict2.items():
         dict[key] = value
 print(zs)
+
+mapping = {'a': 23, 'b':42,'c':0xc0ffee}
+str(mapping)
