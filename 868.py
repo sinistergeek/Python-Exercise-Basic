@@ -102,3 +102,7 @@ print(zs)
 
 mapping = {'a': 23, 'b':42,'c':0xc0ffee}
 str(mapping)
+
+import json
+json.dumps(mapping,indent=4,sort_keys=True)
+
