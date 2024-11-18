@@ -108,3 +108,6 @@ json.dumps(mapping,indent=4,sort_keys=True)
 
 import pprint
 pprint.pprint(mapping)
+
+import datetime
+print(dir(datetime))
