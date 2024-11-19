@@ -111,3 +111,4 @@ pprint.pprint(mapping)
 
 import datetime
 print(dir(datetime))
+[ _ for _ in dir(datetime) if 'date' in _.lower()]
