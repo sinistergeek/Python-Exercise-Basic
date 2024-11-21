@@ -116,3 +116,6 @@ print(dir(datetime))
 def greet(name):
     return 'Hello, ' + name + '!'
 print(greet('Guido'))
+
+name = "ada lovelace"
+print(name.title())
