@@ -132,3 +132,6 @@ print(full_name)
 favorite_language = 'python'
 favorite_language = favorite_language.rstrip()
 print(favorite_language)
+
+bicycles=['trek','cannondale','redline1','specailized']
+print(bicycles[0])
