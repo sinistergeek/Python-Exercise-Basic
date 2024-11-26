@@ -135,3 +135,5 @@ print(favorite_language)
 
 bicycles=['trek','cannondale','redline1','specailized']
 print(bicycles[0])
+message = f"My fist bicycle was a {bicycles[0].title()}."
+print(message)
