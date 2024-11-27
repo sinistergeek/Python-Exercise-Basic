@@ -137,3 +137,6 @@ bicycles=['trek','cannondale','redline1','specailized']
 print(bicycles[0])
 message = f"My fist bicycle was a {bicycles[0].title()}."
 print(message)
+motorcycles = ['honda','yamaha','suzuki']
+motorcycles[0] = 'ducati'
+print(motorcycles)
