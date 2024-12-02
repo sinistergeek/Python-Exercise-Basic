@@ -11,3 +11,7 @@ cars.sort()
 print(cars)
 cars.reverse()
 print(cars)
+
+magicians = ['alice','david','carolina']
+for magician in magicians:
+    print(magician)
