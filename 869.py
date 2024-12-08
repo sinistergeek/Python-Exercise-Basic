@@ -38,3 +38,7 @@ print(my_foods)
 
 print("\n My friend's favorite foods are:")
 print(friend_foods)
+friend_foods = my_foods[:]
+my_foods.append('cannoli')
+friend_foods.append('ice cream')
+
