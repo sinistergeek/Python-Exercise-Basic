@@ -42,3 +42,6 @@ friend_foods = my_foods[:]
 my_foods.append('cannoli')
 friend_foods.append('ice cream')
 
+dimensions = (500,50)
+print(dimensions[0])
+print(dimensions[1])
