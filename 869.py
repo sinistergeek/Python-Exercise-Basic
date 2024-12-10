@@ -45,3 +45,9 @@ friend_foods.append('ice cream')
 dimensions = (500,50)
 print(dimensions[0])
 print(dimensions[1])
+
+dimensions = (200,50)
+print("Original dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
