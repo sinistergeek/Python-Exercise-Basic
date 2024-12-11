@@ -51,3 +51,10 @@ print("Original dimensions:")
 for dimension in dimensions:
     print(dimension)
 
+cars = ['audi','bmw','subaru','toyota']
+for car in cars:
+    if car == 'bmw':
+        if car == 'bmw':
+            print(car.upper())
+        else:
+            print(car.title())
