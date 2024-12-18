@@ -100,3 +100,7 @@ for requested_topping in requested_toppings:
     else:
         print(f"Sorry, we don't have {requested_topping}.")
 print("\n Finished making your pizza!")
+
+alien_0 = {'color':'green','points':5}
+print(alien_0['color'])
+print(alien_0['points'])
