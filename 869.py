@@ -138,3 +138,13 @@ user_0 = {
 for key,value in user_0.items():
     print(f"\nKey: {key}")
     print(f"Value: {value}")
+
+pizza = {
+        'crust': 'thick',
+        'toppings': ['mushrooms','extra cheese'],
+        }
+print(f"You orderd a {pizza['crust']}- crust pizza" 
+      "with the following toppings:")
+
+for topping in pizza['toppings']:
+    print(f"\t{topping}")
