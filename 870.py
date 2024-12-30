@@ -62,3 +62,8 @@ for username, user_info in users.items():
 
     print(f"\t Full name: {full_name.title()}")
     print(f"\t Location: {location.title()}")
+
+prompt = "If you share your name, we can personalize the messages you see."
+prompt += "\nWhat is your first name? "
+
+name = input(prompt)
