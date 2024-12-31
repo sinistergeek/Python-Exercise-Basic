@@ -67,3 +67,10 @@ prompt = "If you share your name, we can personalize the messages you see."
 prompt += "\nWhat is your first name? "
 
 name = input(prompt)
+
+height = input("How tall are you, in inches? ")
+height = int(height)
+if height >= 48:
+    print("\nYou're tall enough to ride!")
+else:
+    print("\n You'll be able to ride when you're a little older.")
