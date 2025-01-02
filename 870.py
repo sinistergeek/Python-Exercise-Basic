@@ -83,3 +83,9 @@ if number % 2 == 0:
     print(f"\n The number {number} is even.")
 else:
     print(f"\n The number {number} is odd.")
+
+current_number = 1
+while current_number <=5:
+    print(current_number)
+    current_number += 1
+
