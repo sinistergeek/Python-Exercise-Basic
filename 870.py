@@ -96,3 +96,11 @@ message = ""
 while message != 'quit':
     message = input(prompt)
     print(message)
+
+active = True
+while active:
+    message = input(prompt)
+    if message == 'quit':
+        active = False
+    else:
+        print(message)
