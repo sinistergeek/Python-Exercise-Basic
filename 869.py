@@ -158,3 +158,9 @@ while True:
         break
     else:
         print(f"I'd love to go to {city.title()}!")
+
+x = 1 
+while x <= 5:
+    print(x)
+    x += 1
+
