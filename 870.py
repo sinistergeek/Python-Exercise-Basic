@@ -123,3 +123,10 @@ while unconfirmed_users:
 print("\n The following users have been confirmed.")
 for confirmed_user in confirmed_users:
     print(confirmed_user.title())
+
+pets = ['dog', 'cat','dog','goldfish','cat','rabbit','cat']
+print(pets)
+
+while 'cat' in pets:
+    pets.remove('cat')
+print(pets)
