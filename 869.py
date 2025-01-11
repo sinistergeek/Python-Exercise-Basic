@@ -164,3 +164,8 @@ while x <= 5:
     print(x)
     x += 1
 
+def greet_user():
+    """Display a simple greeting."""
+    print("Hello!")
+
+greet_user()
