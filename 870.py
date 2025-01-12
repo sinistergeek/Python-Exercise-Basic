@@ -145,3 +145,7 @@ while polling_active:
 print("\n --- Poll Results ---")
 for name,response in responses.items():
     print(f"{name} should like to climb {response}.")
+
+def greet_user(username):
+    print(f"Hello, {username.title()}!")
+greet_user('jesse')
