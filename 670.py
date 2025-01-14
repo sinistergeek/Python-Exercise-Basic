@@ -15,3 +15,9 @@ def pfactorsr(x: int) -> Iterator[int]:
             yield from pfactorsr(x//2)
         return 
     yield from factor_(x,3)
+
+def get_formatted_name(first_name,last_name):
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+musician = get_formatted_name('jimi','hendix')
+print(musician)
