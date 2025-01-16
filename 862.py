@@ -38,3 +38,14 @@ def uppercase(func):
         modified_result = original_result.upper()
         return modified_result 
     return wrapper
+
+
+def get_formatted_name(first_name,last_name,middle_name=''):
+    if middle_name:
+        full_name = f"{first_name} {middle_name} {last_name}"
+    else:
+        full_name = f"{first_name} {last_name}"
+
+musician = get_formatted_name('jimi','hendrix')
+print(musician)
+musician =get_formatted_name('john','hooker','lee')
