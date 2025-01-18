@@ -155,3 +155,8 @@ def describe_pet(animal_type,pet_name):
     print(f"My {animal_type}'s name is {pet_name.title()}.")
 
 describe_pet('hamster','harry')
+def build_person(first_name,last_name,age=None):
+    if age:
+        person['age'] = age
+
+musician = build_person('jimi','hendrix',age=27)
