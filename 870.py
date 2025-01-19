@@ -160,3 +160,11 @@ def build_person(first_name,last_name,age=None):
         person['age'] = age
 
 musician = build_person('jimi','hendrix',age=27)
+
+while True:
+    prin("\nPlease tell me ur name.")
+    f_name = input("First name: ")
+    l_name = input("Last name: ")
+
+    formatted_name = get_formatted_name(f_name,l_name)
+    print(f"\n Hello,{formatted_name}!")
