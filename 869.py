@@ -169,3 +169,10 @@ def greet_user():
     print("Hello!")
 
 greet_user()
+
+def greet_users(names):
+    for name in names:
+        msg = f"Hello, {name.title()}!"
+        print(msg)
+usernames = ['hananah','ty','margot']
+greet_users(usernames)
