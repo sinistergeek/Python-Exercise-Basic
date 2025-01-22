@@ -140,3 +140,9 @@ class Concrete(Base):
 def integers():
     for i in range(1,9):
         yield i
+
+unprinted_designs = ['phone case', 'robot pendant','dodecahedron']
+completed_models = []
+
+print_modles(unprinted_designs,completed_modles)
+show_completed_models(completed_models)
