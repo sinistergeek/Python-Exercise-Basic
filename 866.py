@@ -94,3 +94,9 @@ def bounded_repeater(value,max_repeats):
             return
         count += 1
         yield value
+
+def make_pizza(size, *toppings):
+    """ Summerize the piza we are about to make."""
+    print(f"\nMaking a {size}-inch pizza with the following toppings:")
+    for topping in toppings:
+        print(f"- {topping}")
