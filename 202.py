@@ -14,3 +14,13 @@ class ElectricCar(Car):
 
 my_leaf = ElectricCar('nissan','leaf',2024)
 print(my_leaf.get_descriptive_name())
+
+class Battery:
+    """ A simple attempt to model a battery for an electric car."""
+    def __init__(self,battery_size=40):
+        """Initialize the battery's attributes."""
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        """Print a statement describing the batteryt size."""
+        print(f"This car has a  {self.battery_size}-kWh battery.")
