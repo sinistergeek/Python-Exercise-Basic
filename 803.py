@@ -19,3 +19,9 @@ except FileNotFoundError as e:
     return [
         f"Not Found {static_path}\n{e!r}".encode("utf-8")
     ]
+
+from pathlib import Path
+
+path = Path('pi_digits.txt')
+contents = path.read_text()
+print(contents)
