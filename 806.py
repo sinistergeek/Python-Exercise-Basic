@@ -14,3 +14,9 @@ SERIALIZERS = {
     'json':('application/json'to_bytes(serialize_json)),
     'csv':('text/csv',to_bytes(serialize_csv))
 }
+
+from pathlib import Path
+
+path = Path('pi_digits.txt')
+contents = path.read_text()
+print(contents)
