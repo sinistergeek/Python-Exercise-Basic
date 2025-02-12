@@ -16,3 +16,8 @@ numbers = [2,3,5,7,11,13]
 path = Path('numbers.json')
 contents = json.dumps(numbers)
 path.write_text(contents)
+
+def get_formatted_name(first,last):
+    """Generate a neatly formatted full name."""
+    full_name = f"{first} {last}"
+    return full_name.title()
