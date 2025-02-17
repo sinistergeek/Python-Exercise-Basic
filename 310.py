@@ -14,3 +14,13 @@ def test_app():
     rv = web.get('/echo?text=foo+bar')
     assert rv.status == '200 OK'
     assert b"You said: foo bar" == rv.data
+
+def test_store_three_response():
+    question = "What language did you first learn to speak?"
+    language_survey = AnonymousSurvey(question)
+    responses = ['English','Spanish','Mandarin']
+    for response in responses:
+        language_survey.store_response(response)
+
+    for response in responses:
+        assert response in language_survey.responses
