@@ -21,3 +21,10 @@ def get_formatted_name(first,last):
     """Generate a neatly formatted full name."""
     full_name = f"{first} {last}"
     return full_name.title()
+
+class Settings:
+    def __init__(self):
+        """Initialize the game's settings."""
+        self.screen_width = 1200
+        self.screen_heigth = 800
+        self.bg_color = (230,230,230)
